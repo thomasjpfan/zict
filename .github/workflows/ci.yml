@@ -1,10 +1,10 @@
-name: Run Tests
+name: CI
 
 on: [push, pull_request]
 
 jobs:
-  run_tests:
-    name: Run Test
+  build:
+    name: Run Tests
     runs-on: ubuntu-latest
     strategy:
       fail-fast: true
