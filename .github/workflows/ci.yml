@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Setup Conda Environment
-        uses: conda-incubator/setup-miniconda@16930e6b7966fde20f12b24fc843e33912101678
+        uses: conda-incubator/setup-miniconda@1.7.0
         with:
           auto-update-conda: true
           miniconda-version: latest
